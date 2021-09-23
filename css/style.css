@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  /*font-size: 62.5%; 
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 40%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 35%;
+  }
+   */ }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+  background-color: #131212;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+.container {
+  text-align: center; }
+
+h1, h2 {
+  margin-bottom: 1.5rem; }
+
+.form {
+  margin-bottom: 2rem; }
+
+.form-control input {
+  border: 0;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 5px;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  color: #fff; }
+
+.guide {
+  margin-top: 4rem; }
+
+.btn-calculate {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer; }
+
+.result {
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: #2ee46a; }
